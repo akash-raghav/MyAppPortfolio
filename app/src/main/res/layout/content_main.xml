@@ -13,64 +13,52 @@
       android:padding="@dimen/activity_horizontal_margin">
 
     <Button
-        android:id="@+id/app_btn1"
+        android:id="@+id/amtrack_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/activity_horizontal_margin"
-        android:background="@color/colorAccent"
+        style="@style/buttonStyle"
         android:onClick="showMessageToast"
-        android:text="AMTRACK"
-        android:textColor="@color/colorTextIcons"/>
+        android:text="@string/amtrack_app_name"/>
 
     <Button
-        android:id="@+id/app_btn2"
+        android:id="@+id/svar_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/activity_horizontal_margin"
-        android:background="@color/colorAccent"
+        style="@style/buttonStyle"
         android:onClick="showMessageToast"
-        android:text="SVAR"
-        android:textColor="@color/colorTextIcons"/>
+        android:text="@string/svar_app_name"/>
 
     <Button
-        android:id="@+id/app_btn3"
+        android:id="@+id/popular_movies_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/activity_horizontal_margin"
-        android:background="@color/colorAccent"
+        style="@style/buttonStyle"
         android:onClick="showMessageToast"
-        android:text="Popular Movies"
-        android:textColor="@color/colorTextIcons"/>
+        android:text="@string/popular_movies_app_name"/>
 
     <Button
-        android:id="@+id/app_btn4"
+        android:id="@+id/locate_yourself_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/activity_horizontal_margin"
-        android:background="@color/colorAccent"
+        style="@style/buttonStyle"
         android:onClick="showMessageToast"
-        android:text="Locate Yourself"
-        android:textColor="@color/colorTextIcons"/>
+        android:text="@string/locate_yourself_app_name"/>
 
     <Button
-        android:id="@+id/app_btn5"
+        android:id="@+id/shoe_maker_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/activity_horizontal_margin"
-        android:background="@color/colorAccent"
+        style="@style/buttonStyle"
         android:onClick="showMessageToast"
-        android:text="ShoeMaker"
-        android:textColor="@color/colorTextIcons"/>
+        android:text="@string/shoe_maker_app_name"/>
 
     <Button
-        android:id="@+id/app_btn6"
+        android:id="@+id/fitbit_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/activity_horizontal_margin"
-        android:background="@color/colorAccent"
+        style="@style/buttonStyle"
         android:onClick="showMessageToast"
-        android:text="FitBit"
-        android:textColor="@color/colorTextIcons"/>
+        android:text="@string/fitbit_app_name"/>
   </LinearLayout>
 
 </ScrollView>

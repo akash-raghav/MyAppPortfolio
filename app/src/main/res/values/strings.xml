@@ -1,3 +1,9 @@
 <resources>
   <string name="app_name">MyAppPortfolio</string>
+  <string name="amtrack_app_name">AMTRACK</string>
+  <string name="svar_app_name">SVAR</string>
+  <string name="popular_movies_app_name">Popular Movies</string>
+  <string name="locate_yourself_app_name">Locate Yourself</string>
+  <string name="shoe_maker_app_name">ShoeMaker</string>
+  <string name="fitbit_app_name">FitBit</string>
 </resources>

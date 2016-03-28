@@ -15,8 +15,10 @@ public class MainActivity extends AppCompatActivity {
     getWindow().setBackgroundDrawable(null);
     setContentView(R.layout.activity_main);
     Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-    toolbar.setTitle("My App Portfolio");
-    setSupportActionBar(toolbar);
+    if (toolbar != null) {
+      toolbar.setTitle("My App Portfolio");
+      setSupportActionBar(toolbar);
+    }
   }
 
   public void showMessageToast(View v) {
